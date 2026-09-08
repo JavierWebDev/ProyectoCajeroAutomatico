@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "fecha": "2026-09-03T04:21:47.907Z",
+    "cliente": {
+      "identificacion": "1001",
+      "nombre": "Ana",
+      "apellido": "Gómez"
+    },
+    "items": [
+      {
+        "codigo": "P003",
+        "nombre": "Leche 1L",
+        "precio": 4200,
+        "cantidad": 5,
+        "subtotal": 21000
+      }
+    ],
+    "subtotal": 21000,
+    "tarifaEspecialAplicada": false,
+    "valorDescuento": 0,
+    "total": 21000,
+    "medioPago": "efectivo",
+    "puntosUsados": 0,
+    "valorPagadoConPuntos": 0,
+    "valorPagadoOtroMedio": 21000,
+    "puntosGanados": 210,
+    "saldoPuntos": 235
+  },
+  {
+    "id": 2,
+    "fecha": "2026-09-03T13:07:00.136Z",
+    "cliente": {
+      "identificacion": "1001",
+      "nombre": "Ana",
+      "apellido": "Gómez"
+    },
+    "items": [
+      {
+        "codigo": "P007",
+        "nombre": "Café 500g",
+        "precio": 18500,
+        "cantidad": 2,
+        "subtotal": 37000
+      },
+      {
+        "codigo": "P009",
+        "nombre": "Detergente 2kg",
+        "precio": 22900,
+        "cantidad": 1,
+        "subtotal": 22900
+      }
+    ],
+    "subtotal": 59900,
+    "tarifaEspecialAplicada": true,
+    "valorDescuento": 2995,
+    "total": 56905,
+    "medioPago": "efectivo",
+    "puntosUsados": 0,
+    "valorPagadoConPuntos": 0,
+    "valorPagadoOtroMedio": 56905,
+    "puntosGanados": 569,
+    "saldoPuntos": 804
+  },
+  {
+    "id": 3,
+    "fecha": "2026-09-03T13:07:11.463Z",
+    "cliente": {
+      "identificacion": "1001",
+      "nombre": "Ana",
+      "apellido": "Gómez"
+    },
+    "items": [
+      {
+        "codigo": "P007",
+        "nombre": "Café 500g",
+        "precio": 18500,
+        "cantidad": 2,
+        "subtotal": 37000
+      },
+      {
+        "codigo": "P009",
+        "nombre": "Detergente 2kg",
+        "precio": 22900,
+        "cantidad": 1,
+        "subtotal": 22900
+      }
+    ],
+    "subtotal": 59900,
+    "tarifaEspecialAplicada": true,
+    "valorDescuento": 2995,
+    "total": 56905,
+    "medioPago": "efectivo",
+    "puntosUsados": 0,
+    "valorPagadoConPuntos": 0,
+    "valorPagadoOtroMedio": 56905,
+    "puntosGanados": 569,
+    "saldoPuntos": 1373
+  },
+  {
+    "id": 4,
+    "fecha": "2026-09-03T13:07:44.678Z",
+    "cliente": {
+      "identificacion": "1001",
+      "nombre": "Ana",
+      "apellido": "Gómez"
+    },
+    "items": [
+      {
+        "codigo": "P006",
+        "nombre": "Azúcar 1kg",
+        "precio": 4700,
+        "cantidad": 1,
+        "subtotal": 4700
+      }
+    ],
+    "subtotal": 4700,
+    "tarifaEspecialAplicada": false,
+    "valorDescuento": 0,
+    "total": 4700,
+    "medioPago": "puntos",
+    "puntosUsados": 100,
+    "valorPagadoConPuntos": 4700,
+    "valorPagadoOtroMedio": 0,
+    "puntosGanados": 0,
+    "saldoPuntos": 1273
+  },
+  {
+    "id": 5,
+    "fecha": "2026-09-03T16:20:08.102Z",
+    "cliente": {
+      "identificacion": "1001",
+      "nombre": "Ana",
+      "apellido": "Gómez"
+    },
+    "items": [
+      {
+        "codigo": "P001",
+        "nombre": "Arroz 500g",
+        "precio": 3500,
+        "cantidad": 1,
+        "subtotal": 3500
+      },
+      {
+        "codigo": "P009",
+        "nombre": "Detergente 2kg",
+        "precio": 22900,
+        "cantidad": 1,
+        "subtotal": 22900
+      }
+    ],
+    "subtotal": 26400,
+    "tarifaEspecialAplicada": false,
+    "valorDescuento": 0,
+    "total": 26400,
+    "medioPago": "puntos",
+    "puntosUsados": 1200,
+    "valorPagadoConPuntos": 26400,
+    "valorPagadoOtroMedio": 0,
+    "puntosGanados": 0,
+    "saldoPuntos": 73
+  },
+  {
+    "id": 6,
+    "fecha": "2026-09-03T18:29:34.541Z",
+    "cliente": {
+      "identificacion": "1002",
+      "nombre": "Carlos",
+      "apellido": "Londoño"
+    },
+    "items": [
+      {
+        "codigo": "P001",
+        "nombre": "Arroz 500g",
+        "precio": 3500,
+        "cantidad": 2,
+        "subtotal": 7000
+      },
+      {
+        "codigo": "P003",
+        "nombre": "Leche 1L",
+        "precio": 4200,
+        "cantidad": 1,
+        "subtotal": 4200
+      },
+      {
+        "codigo": "P007",
+        "nombre": "Café 500g",
+        "precio": 18500,
+        "cantidad": 2,
+        "subtotal": 37000
+      }
+    ],
+    "subtotal": 48200,
+    "tarifaEspecialAplicada": false,
+    "valorDescuento": 0,
+    "total": 48200,
+    "medioPago": "puntos + efectivo",
+    "puntosUsados": 480,
+    "valorPagadoConPuntos": 48000,
+    "valorPagadoOtroMedio": 200,
+    "puntosGanados": 2,
+    "saldoPuntos": 2
+  },
+  {
+    "id": 7,
+    "fecha": "2026-09-03T18:32:34.968Z",
+    "cliente": {
+      "identificacion": "1002",
+      "nombre": "Carlos",
+      "apellido": "Londoño"
+    },
+    "items": [
+      {
+        "codigo": "P001",
+        "nombre": "Arroz 500g",
+        "precio": 3500,
+        "cantidad": 2,
+        "subtotal": 7000
+      },
+      {
+        "codigo": "P003",
+        "nombre": "Leche 1L",
+        "precio": 4200,
+        "cantidad": 1,
+        "subtotal": 4200
+      },
+      {
+        "codigo": "P007",
+        "nombre": "Café 500g",
+        "precio": 18500,
+        "cantidad": 8,
+        "subtotal": 148000
+      }
+    ],
+    "subtotal": 159200,
+    "tarifaEspecialAplicada": true,
+    "valorDescuento": 7960,
+    "total": 151240,
+    "medioPago": "efectivo",
+    "puntosUsados": 0,
+    "valorPagadoConPuntos": 0,
+    "valorPagadoOtroMedio": 151240,
+    "puntosGanados": 1512,
+    "saldoPuntos": 1514
+  },
+  {
+    "id": 8,
+    "fecha": "2026-09-04T13:42:18.350Z",
+    "cliente": {
+      "identificacion": "1001",
+      "nombre": "Ana",
+      "apellido": "Gómez"
+    },
+    "items": [
+      {
+        "codigo": "P002",
+        "nombre": "Aceite 1L",
+        "precio": 9800,
+        "cantidad": 1,
+        "subtotal": 9800
+      },
+      {
+        "codigo": "P004",
+        "nombre": "Pan tajado",
+        "precio": 6500,
+        "cantidad": 2,
+        "subtotal": 13000
+      }
+    ],
+    "subtotal": 22800,
+    "tarifaEspecialAplicada": false,
+    "valorDescuento": 0,
+    "total": 22800,
+    "medioPago": "puntos + efectivo",
+    "puntosUsados": 50,
+    "valorPagadoConPuntos": 5000,
+    "valorPagadoOtroMedio": 17800,
+    "puntosGanados": 178,
+    "saldoPuntos": 201
+  }
+]

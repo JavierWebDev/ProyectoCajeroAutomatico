@@ -1,0 +1,12 @@
+[
+  { "codigo": "P001", "nombre": "Arroz 500g", "precio": 3500 },
+  { "codigo": "P002", "nombre": "Aceite 1L", "precio": 9800 },
+  { "codigo": "P003", "nombre": "Leche 1L", "precio": 4200 },
+  { "codigo": "P004", "nombre": "Pan tajado", "precio": 6500 },
+  { "codigo": "P005", "nombre": "Huevos x30", "precio": 15900 },
+  { "codigo": "P006", "nombre": "Azúcar 1kg", "precio": 4700 },
+  { "codigo": "P007", "nombre": "Café 500g", "precio": 18500 },
+  { "codigo": "P008", "nombre": "Jabón de baño", "precio": 3200 },
+  { "codigo": "P009", "nombre": "Detergente 2kg", "precio": 22900 },
+  { "codigo": "P010", "nombre": "Gaseosa 2L", "precio": 7300 }
+]

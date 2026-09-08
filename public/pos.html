@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda UPB - Caja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <span>Tienda UPB - Punto de venta</span>
+    <span>
+      <span id="nombre-cajero"></span>
+      <button class="secundario" id="btn-salir">Cerrar sesión</button>
+    </span>
+  </header>
+
+  <main>
+    <!-- Cliente -->
+    <section class="panel ancho-completo">
+      <h2>1. Cliente</h2>
+      <div class="fila">
+        <div>
+          <label for="identificacion-cliente">Número de identificación</label>
+          <input type="text" id="identificacion-cliente" placeholder="Ej: 1001">
+        </div>
+        <div>
+          <button id="btn-buscar-cliente" type="button">Buscar</button>
+        </div>
+        <div>
+          <button id="btn-venta-sin-cliente" type="button" class="secundario">Venta sin registrar</button>
+        </div>
+      </div>
+
+      <div id="cliente-info" class="cliente-info oculto"></div>
+
+      <form id="form-registro" class="oculto" style="margin-top: 12px;">
+        <p>El cliente no está registrado. Puede registrarlo para que acumule puntos:</p>
+        <div class="fila">
+          <div>
+            <label for="reg-nombre">Nombre</label>
+            <input type="text" id="reg-nombre" required>
+          </div>
+          <div>
+            <label for="reg-apellido">Apellido</label>
+            <input type="text" id="reg-apellido" required>
+          </div>
+          <div>
+            <button type="submit">Registrar</button>
+          </div>
+        </div>
+      </form>
+
+      <p id="mensaje-cliente" class="mensaje oculto"></p>
+    </section>
+
+    <!-- Productos -->
+    <section class="panel">
+      <h2>2. Productos</h2>
+      <div class="fila">
+        <div>
+          <label for="select-producto">Producto</label>
+          <select id="select-producto"></select>
+        </div>
+        <div style="flex: 0 0 80px;">
+          <label for="cantidad-producto">Cant.</label>
+          <input type="number" id="cantidad-producto" value="1" min="1">
+        </div>
+        <div>
+          <button id="btn-agregar-producto" type="button">Agregar</button>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr><th>Producto</th><th>Cant.</th><th>Subtotal</th><th></th></tr>
+        </thead>
+        <tbody id="tabla-carrito"></tbody>
+      </table>
+    </section>
+
+    <!-- Totales y pago -->
+    <section class="panel">
+      <h2>3. Pago</h2>
+
+      <div class="totales">
+        <div class="linea"><span>Subtotal</span><span id="txt-subtotal">$0</span></div>
+        <div class="linea" id="linea-descuento"><span>Descuento tarifa especial</span><span id="txt-descuento">$0</span></div>
+        <div class="linea total"><span>Total</span><span id="txt-total">$0</span></div>
+      </div>
+
+      <label for="select-medio-pago" style="margin-top:14px;">Medio de pago</label>
+      <select id="select-medio-pago">
+        <option value="efectivo">Efectivo</option>
+        <option value="tarjeta">Tarjeta</option>
+        <option value="puntos">Puntos acumulados</option>
+      </select>
+
+      <div id="bloque-puntos" class="oculto" style="margin-top:10px;">
+        <label for="puntos-a-usar">Puntos a usar (disponibles: <span id="puntos-disponibles">0</span>)</label>
+        <input type="number" id="puntos-a-usar" min="1" value="1">
+
+        <div id="bloque-restante" class="oculto" style="margin-top:10px;">
+          <label for="select-metodo-restante">El saldo restante se paga con</label>
+          <select id="select-metodo-restante">
+            <option value="efectivo">Efectivo</option>
+            <option value="tarjeta">Tarjeta</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="btn-finalizar" type="button" style="margin-top:16px; width:100%;">Finalizar compra</button>
+      <p id="mensaje-venta" class="mensaje oculto"></p>
+    </section>
+
+    <!-- Factura -->
+    <section id="panel-factura" class="panel ancho-completo oculto">
+      <h2>Factura generada</h2>
+      <div id="contenido-factura" class="factura"></div>
+      <button id="btn-nueva-venta" type="button" class="secundario">Nueva venta</button>
+    </section>
+  </main>
+
+  <script src="pos.js"></script>
+</body>
+</html>

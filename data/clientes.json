@@ -1,0 +1,14 @@
+[
+  {
+    "identificacion": "1001",
+    "nombre": "Ana",
+    "apellido": "Gómez",
+    "puntos": 201
+  },
+  {
+    "identificacion": "1002",
+    "nombre": "Carlos",
+    "apellido": "Londoño",
+    "puntos": 1514
+  }
+]

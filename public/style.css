@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f2f4f7;
+  color: #1f2933;
+}
+
+.login-container {
+  max-width: 340px;
+  margin: 90px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccd1d9;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 9px 14px;
+  font-size: 14px;
+  background: #2563eb;
+  color: white;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button.secundario {
+  background: #6b7280;
+}
+
+button.secundario:hover {
+  background: #4b5563;
+}
+
+.error {
+  color: #b91c1c;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login-container button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 10px;
+}
+
+.ayuda {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* ---- Pantalla de caja ---- */
+
+header.topbar {
+  background: #1f2933;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.panel {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.panel h2 {
+  font-size: 16px;
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.fila {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.fila > div {
+  flex: 1;
+}
+
+.cliente-info {
+  margin-top: 10px;
+  background: #eef2ff;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+th, td {
+  text-align: left;
+  padding: 6px 4px;
+  border-bottom: 1px solid #eee;
+}
+
+.totales {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.totales .linea {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+}
+
+.totales .total {
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 1px solid #ddd;
+  margin-top: 6px;
+  padding-top: 6px;
+}
+
+.ancho-completo {
+  grid-column: 1 / -1;
+}
+
+.oculto {
+  display: none;
+}
+
+.factura {
+  background: white;
+  border: 1px dashed #999;
+  padding: 16px;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.factura table {
+  margin: 8px 0;
+}
+
+.badge {
+  display: inline-block;
+  background: #16a34a;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.mensaje {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.mensaje.exito { color: #15803d; }
+.mensaje.error { color: #b91c1c; }
+
+@media (max-width: 720px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
